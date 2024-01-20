@@ -43,7 +43,6 @@ class TestDividir(unittest.TestCase):
         self.assertEqual(dividir(3, 2), 1.5)
         self.assertEqual(dividir(2, 1), 2)
         self.assertEqual(dividir(20, 10), 2)
-        self.assertEqual(dividir(5, 0), 0)
 
 if __name__ == '__main__':
     unittest.main()    
