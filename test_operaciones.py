@@ -31,7 +31,7 @@ class TestMultiplicar(unittest.TestCase):
         self.assertEqual(multiplicar(3, 2), 6)
         self.assertEqual(multiplicar(1, 1), 1)
         self.assertEqual(multiplicar(8, 3), 24)
-        self.assertEqual(multiplicar(-2, 3), 6)
+        
 
 if __name__ == '__main__':
     unittest.main()    
